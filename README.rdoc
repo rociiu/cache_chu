@@ -1,6 +1,5 @@
-_Usage_
+=Usage
 
-@
 	class User < ActiveRecord::Base
 	  
 	  def some_complex_cal(param_a, param_b)
@@ -14,6 +13,6 @@ _Usage_
 	  cache_chu :some_complex_cal, :method_with_no_param
 	  
 	end
-@
 
-copyright(c) 2010 "rociiu.yu@gmail.com":mailto:rociiu.yu@gmail.com
+
+copyright(c) 2010 rociiu.yu@gmail.com
