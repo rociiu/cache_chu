@@ -1,1 +1,19 @@
-copyright(c) 2010 "rociiu.yu@gmail.com":mailto:rociiu0112@gmail.com
+_Usage_
+
+@
+	class User < ActiveRecord::Base
+	  
+	  def some_complex_cal(param_a, param_b)
+	    
+	  end
+	
+	  def method_with_no_param
+	  end
+	  
+	  include CacheChu
+	  cache_chu :some_complex_cal, :method_with_no_param
+	  
+	end
+@
+
+copyright(c) 2010 "rociiu.yu@gmail.com":mailto:rociiu.yu@gmail.com
